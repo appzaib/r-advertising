@@ -13,40 +13,31 @@ const Navbar2 = () => {
           </Link>
         </div>
       </nav>
-      <nav className="bg-gray-50 dark:bg-gray-700">
+      <nav className=" bg-gray-50 dark:bg-gray-700 bg-gradient-to-r from-indigo-500 to-blue-500">
         <div className="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
           <div className="flex items-center">
-            <ul className="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
+            <ul className="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium ">
               <li>
                 <Link
                   href="#"
-                  className="text-gray-900 dark:text-white hover:underline"
+                  className="text-white hover:underline"
                   aria-current="page"
                 >
                   Home
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
+                <Link href="#" className="text-white hover:underline">
                   Company
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
+                <Link href="#" className="text-white hover:underline">
                   Team
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
+                <Link href="#" className="text-white hover:underline">
                   Features
                 </Link>
               </li>
