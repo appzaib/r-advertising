@@ -1,14 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import Header from "@/components/Header";
+
 import Hero from "@/components/Hero";
 import Navbar2 from "@/components/Navbar2";
-import Footer from "@/components/Footer";
+
+import Footer2 from "@/components/Footer2";
 import Statics from "@/components/Statics";
+import Cardx from "@/components/Cardx";
+import Testimonials from "@/components/Testimonials";
+import Work2 from "@/components/Work2";
+
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -18,13 +23,17 @@ export default function Home() {
           content="A Advertising Agency That Change Your Mind About Advertising"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar2 />
       <Hero />
       <Statics />
-      <Footer />
+      <Cardx />
+      <Work2 />
+      <Testimonials />
+      <Footer2 />
+      {/*  <Footer /> */}
     </>
   );
-}
+};
+export default Home;

@@ -88,3 +88,24 @@ body {
   overflow-x: hidden;
 }
 
+.btn:hover{
+  color:#000;
+  background:none;
+  outline: auto;
+  
+}
+.icon:hover{
+  fill:rgb(99 102 241 );
+  border-top: 2px solid rgb(99 102 241 );
+   border-right: 2px solid rgb(99 102 241 );
+   border-bottom: 2px solid rgb(99 102 241 ); 
+  
+}
+.icon2:hover{
+  Stroke:rgb(99 102 241 );
+  border-top: 2px solid rgb(99 102 241 );
+   border-right: 2px solid rgb(99 102 241 );
+   border-bottom: 2px solid rgb(99 102 241 ); 
+  
+}
+ 
