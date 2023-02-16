@@ -1,12 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 const Hero = () => {
   return (
     <>
       <section className="text-gray-600 body-font">
         <div className="container flex flex-col items-center justify-center px-5 py-5 pt-10 mx-auto">
-          <Image
+          <img
             className="object-cover object-center w-5/6 mb-10 duration-1000 rounded hover:translate-x-20 lg:w-2/6 md:w-3/6"
             alt="hero"
             src="/images/hero.svg"
